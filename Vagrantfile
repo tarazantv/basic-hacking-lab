@@ -13,5 +13,3 @@ Vagrant.configure("2") do |config|
     target.vm.network "private_network", ip: "192.168.1.11"
  end
 end
-
-vagant up
